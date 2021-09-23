@@ -16,6 +16,11 @@ h3{
 h3{
     font-size: 6rem;
 }
+
+span {
+	font-size: 6rem;
+	font-weight: 600;
+}
 .container{
     max-width: 500px;
     height: 100vh;
