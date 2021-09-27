@@ -1,43 +1,96 @@
-h1 , h2, h3, span {
-	margin: 0;
+
+
+.projects a{
+    color: #F7FFF7;
+    background-color: darkblue;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
 }
 
-h1 {
-	font-size: 16rem;
+.projects a:hover{
+    background: rgba(47,48,97,80%);
 }
 
-h2 {
-	font-size: 3rem;
+.content-wrap{
+     max-width: 800px;
+     width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+
 }
 
-h3 {
-	font-size: 1.4rem;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    font-family: 'Montserrat', sans-serif;
 }
 
-span {
-	font-size: 6rem;
-	font-weight: 600;
+html{
+    box-sizing: border-box;
 }
 
-.container {
-	max-width: 550px;
-	height: 100vh;
-	border: 1px solid black;
-	margin: 0 auto;
-	text-align: center;
-	display: grid;
-	grid-template-rows: 20% 80%;
-	padding: 25px 5px;
+*, *:before, *:after{
+    box-sizing: inherit;
 }
 
-.degrees {
-	display: grid;
-	grid-template-columns: auto auto;
-	justify-content: center;
-	margin-left: 2rem;
+.Reminder img{
+    width: 400px;
+    float: right;
+    margin: 20px;
+    position: relative; 
+    top: -63px;
+
+}
+.Reminder{
+    overflow: hidden;
+    border-bottom: 1px dashed darkblue;
+    padding: 25px 0;
 }
 
-img {
-	width: 80px;
-	filter: grayscale(100%);
+.Huffman img{
+    width: 400px;
+    float: right;
+    margin: 20px;
+    position: relative; 
+    top: -2px; 
 }
+
+.Huffman{
+    overflow: hidden;
+    padding: 25px 0;
+}
+
+.contact-list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a{
+    padding: 15px;
+    display: inline-block;
+}
+
+.Header-Contact{
+    text-align: center;
+}
+
+.Skills{
+    width: 800px;
+    margin: 0 auto;
+    padding:  20px;
+
+}
+
+
+h3 + p{
+    font-style: italic;
+}
+
+.QC{
+    font-style: italic;
+}
+
